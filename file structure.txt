@@ -1,0 +1,19 @@
+file structure
+
+
+learn2codex
+|-index.html
+|-community.html
+|-blogs
+|-	|-index.html
+|-		|-html
+|-
+|-
+|-
+|-
+|-
+|-
+|-
+|-
+|-
+|-

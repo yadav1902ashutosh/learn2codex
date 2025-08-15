@@ -1,2 +1,25 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono&display=swap');
 
-@import "tailwindcss";
+/* Custom Fonts */
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Hide scrollbars */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Tailwind v4 utilities */
+@import 'tailwindcss';
+
+/* Custom colors if you want to define them without Tailwind config */
+.text-neon-blue { color: #00f2fe; }
+.text-neon-pink { color: #ec4899; }
